@@ -62,7 +62,7 @@
   display: grid;
   position: relative;
   z-index: -2;
-  width: 100%;
+  max-width: 1100px;
   height: 754px;
   background-image: url(/images/cover.jpg);
   background-size: cover;
@@ -281,7 +281,7 @@
   align-items: center;
 }
 
-.about_column { 
+.about_column {
   margin: 137px 0 13px auto;
   width: 693px;
   height: 449px;
@@ -302,7 +302,7 @@
   width: 700px;
   height: 120px;
   font-size: 20px;
-  line-height: 24px;  
+  line-height: 24px;
 }
 
 .footer {
@@ -328,7 +328,7 @@
   justify-items: center;
 }
 
-.footer__link-list-active{
+.footer__link-list-active {
   text-decoration: none;
 }
 
