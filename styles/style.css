@@ -98,25 +98,17 @@
 
 .aligned-text {
   display: block;
-  text-align: start;
+  width: 1030px;
   line-height: 135px;
   letter-spacing: 0.3em;
 }
 
 .aligned-text_center {
-  display: block;
-  width: 1030px;
   text-align: center;
-  line-height: 135px;
-  letter-spacing: 0.3em;
 }
 
 .aligned-text_right {
-  display: block;
-  width: 1030px;
   text-align: end;
-  line-height: 135px;
-  letter-spacing: 0.3em;
 }
 
 .discription {
