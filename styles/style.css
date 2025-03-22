@@ -10,8 +10,9 @@
 
 .menu {
   display: flex;
-  font-size: 18px;
+  justify-self: flex-start;
   min-width: 391px;
+  font-size: 18px;
 }
 
 .header__link-list {
@@ -19,16 +20,15 @@
   gap: 30px;
 }
 
-.header__link-list_no-bullit {
+.header__link-list .header__link-list_active {
   list-style: none;
 }
 
-.header__link-list_no-bullit .link-list-active {
+.header__link-list_active .link-list {
   text-decoration: none;
 }
 
 .header__link-list_item {
-  width: 153px;
   list-style: circle;
 }
 
@@ -258,7 +258,6 @@
 
 .about_title {
   margin-bottom: 100px;
-  width: 299px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
@@ -267,7 +266,7 @@
 
 .about_text {
   margin: 0 0 24px 0;
-  max-width: 700px;
+  max-width: 690px;
   font-size: 20px;
   line-height: 24px;
 }
@@ -277,6 +276,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   align-items: normal;
+  padding-bottom: 87px;
   width: 1100px;
 }
 
@@ -284,9 +284,10 @@
   justify-content: center;
 }
 
-.footer__link-list-active .link-list-active {
+.footer__link-list .link-list-active {
   text-decoration: none;
 }
+
 .footer__link-list {
   list-style: none;
   text-underline-offset: 3px;
@@ -294,14 +295,14 @@
 }
 
 .footer__social {
-  width: 240px;
-  height: 48px;
+  display: flex;
+  justify-self: center;
 }
 
 .footer__social-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 48px;
   list-style: none;
 }
 
