@@ -11,16 +11,16 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header__menu">
+      <nav class="menu">
         <ul class="header__link-list">
-          <li class="header__link-list_no-bullit">
-            <a class="link-list-active" href="#0">главная</a>
+          <li class=".header__link-list_item header__link-list_no-bullit">
+            <a class="link-list link-list-active" href="#0">главная</a>
           </li>
-          <li class="header__link-list-item">
-            <a href="#0">посмотреть лоты</a>
+          <li class="header__link-list_item">
+            <a class="link-list" href="#0">посмотреть лоты</a>
           </li>
-          <li class="header__link-list-item">
-            <a href="#0">об аукционе</a>
+          <li class="header__link-list_item">
+            <a class="link-list" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -46,36 +46,36 @@
           <button class="bet-button">сделать ставку</button>
         </div>
       </section>
-      <section class="class_content lots"> <!-- проверить правильно ли выполнили пункт-->
+      <section class="class_content lots">
         <h2 class="lots_title">Лоты</h2>
         <ul class="lots__card-list">
-            <li class="lots__card-list-item card_type_film">
+            <li class="lots__card-list-item">
               <a href="#0" class="card-link">
-                <article class="card">
+                <article class="card card_type_film">
                   <div class="card__flex">
-                    <div class="overlay_card"></div>
+                    <div class="overlay"></div>
                     <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                     <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
                   </div>
                 </article>
               </a>
             </li>
-            <li class="lots__card-list-item card_type_book">
+            <li class="lots__card-list-item">
               <a href="#0" class="card-link">
-                <article class="card">
+                <article class="card card_type_book">
                   <div class="card__flex">
-                    <div class="overlay_card"></div>
+                    <div class="overlay"></div>
                     <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                     <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
                   </div>
                 </article>
               </a>
             </li>
-            <li class="lots__card-list-item card_type_picture">
+            <li class="lots__card-list-item">
               <a href="#0" class="card-link">
-                <article class="card">
+                <article class="card card_type_picture">
                   <div class="card__flex">
-                    <div class="overlay_card"></div>
+                    <div class="overlay"></div>
                     <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                     <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
                   </div>
@@ -87,13 +87,13 @@
       </section>
       <section class="class_content about">
         <div class="logo_column">
-          <img class="about_logo" src="/images/logo-white.svg" alt="Логотип белого цвета">
+          <img class="about_logo" src="../images/logo-white.svg" alt="Логотип белого цвета">
         </div>
         <div class="about_column">
         <h2 class="about_title">Об аукционе</h2>
         <p class="about_text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть<br> ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
         <p class="about_text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря<br>
-          на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты<br> стали культовыми. </p>
+          на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
         </div>
       </section>
     </main>
@@ -102,10 +102,10 @@
         <a href="tel:+70000000">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265, Амстердам</p>
-      </address> <!-- адрес -->
-      <nav class="footer__menu header__menu">
+      </address>
+      <nav class="footer__menu menu">
         <ul class="footer__link-list">
-          <li class="footer__link-list-active">
+          <li class=" footer__link-list-item footer__link-list-active">
             <a class="link-list-active" href="#0">главная</a>
           </li>
           <li class="footer__link-list-item">
@@ -117,7 +117,7 @@
         </ul>
       </nav>
       <nav class="footer__social">
-        <ul class="footer__social-list"> <!-- ссылки-иконки -->
+        <ul class="footer__social-list">
           <li class="footer__social-list__item">
             <a href="#0"><img class="" src="./images/yt.svg" alt="Иконка ютуба"></a>
           </li>
